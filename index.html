@@ -81,7 +81,12 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Sapiente sint est excepturi ullam mollitia velit.
                 </p>
-                <button type="button" class="btn btn-primary w-100">
+                <button
+                  type="button"
+                  class="btn btn-primary w-100 miCurso"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   Este es mi curso!
                 </button>
               </div>
@@ -90,7 +95,14 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Sapiente sint est excepturi ullam mollitia velit.
                 </p>
-                <button type="button" class="btn btn-success w-100">
+                <button
+                  type="button"
+                  class="btn btn-success w-100 paraMi"
+                  data-bs-toggle="popover"
+                  data-bs-title="Ideal para tí!"
+                  data-bs-content="Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Sapiente sint est"
+                >
                   Hecho para mí!
                 </button>
               </div>
@@ -99,7 +111,10 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Sapiente sint est excepturi ullam mollitia velit.
                 </p>
-                <button type="button" class="btn btn-danger w-100">
+                <button
+                  type="button"
+                  class="btn btn-danger w-100 cuandoArranco"
+                >
                   ¿Cuándo arranco este curso?
                 </button>
               </div>
@@ -119,6 +134,51 @@
               muted
               loop
             ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Mas info de este curso.
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis voluptate dolorem eveniet nisi illum magni, autem alias
+            ipsum quae aliquam? Dolorem nostrum quis error sed rem facilis
+            reprehenderit, nisi ullam optio inventore nesciunt placeat veniam
+            laudantium nulla quibusdam voluptate, totam modi perferendis!
+            Perspiciatis, laudantium laboriosam? Quasi iure facilis cumque nisi
+            deleniti officiis exercitationem minus architecto non, veritatis
+            necessitatibus recusandae nostrum.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">
+              Genial! Me apunto!
+            </button>
           </div>
         </div>
       </div>
